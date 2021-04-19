@@ -1,0 +1,51 @@
+{
+  "name": "doge-listener",
+  "version": "1.0.0",
+  "description": "This software helps with the doge coin traiding.",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seberyak/doge-listener.git"
+  },
+  "keywords": [
+    "doge",
+    "coin",
+    "to",
+    "the",
+    "moon",
+    "hodl"
+  ],
+  "author": "Seberyak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Seberyak/doge-listener/issues"
+  },
+  "dependencies": {
+    "websocket": "^1.0.34",
+    "ws": "^7.4.5"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "@types/node": "^14.14.33",
+    "@types/websocket": "^1.0.2",
+    "@types/ws": "^7.4.1",
+    "@typescript-eslint/eslint-plugin": "^4.17.0",
+    "@typescript-eslint/parser": "^4.17.0",
+    "eslint": "^7.21.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-max-params-no-constructor": "^0.0.4",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-sonarjs": "^0.6.0",
+    "prettier": "^2.2.1",
+    "ts-loader": "^8.0.17",
+    "ts-node": "^9.1.1",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.7.4",
+    "typescript-eslint": "^0.0.1-alpha.0"
+  },
+  "homepage": "https://github.com/Seberyak/doge-listener#readme"
+}
